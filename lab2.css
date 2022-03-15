@@ -1,0 +1,59 @@
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+  }
+
+table {
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+td {
+    text-align: center;
+    color: black;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+tr:hover td {
+    background-color: gray;
+}
+
+td:hover {
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+td.rank {
+    background-color: black;
+    color: white;
+}
+
+td.country {
+    background-color: white;
+    text-align: left;
+}
+
+td.gold {
+    background-color: gold;
+}
+
+td.silver {
+    background-color: silver;
+}
+
+td.bronze {
+    background-color: #cd7f32;
+}
+
+td.total {
+    background-color: green;
+}
